@@ -25,3 +25,10 @@ rename branch that your are not currently checked out
 upload local branch to remote repository
 	command - git push -u origin <local branch name>
 	example - git push -u origin test
+
+track/connect/point remote branch to your local branch
+	command - git branch --track <local branch name> <remote branch name>
+	example - git branch --track dev origin/dev
+
+	Note - make sure to run git fetch before running this command
+ 
