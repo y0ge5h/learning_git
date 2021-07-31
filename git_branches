@@ -1,0 +1,9 @@
+create branch 
+	command - git branch <name of the branch> 
+	example - git branch test
+
+	Starting branch on specific revision
+	command - git branch <branche name> <commit hash / commit id>
+	example - git branch test 02gh567
+
+	
