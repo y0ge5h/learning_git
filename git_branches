@@ -17,4 +17,7 @@ create and switch to just created branch
 rename current branch
 	command - git branch -m <new name>
 	example - git branch -m dev << current branch name will change to dev
-	
+
+rename branch that your are not currently checked out
+	command - git branch -m <non checked out branch current name> <new name>
+	example - git branch -m test better-test
