@@ -21,3 +21,7 @@ rename current branch
 rename branch that your are not currently checked out
 	command - git branch -m <non checked out branch current name> <new name>
 	example - git branch -m test better-test
+
+upload local branch to remote repository
+	command - git push -u origin <local branch name>
+	example - git push -u origin test
