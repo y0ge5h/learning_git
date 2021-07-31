@@ -13,4 +13,11 @@ switch branch
 create and switch to just created branch
 	command - git checkout -b <branch name>
 	example - git checkout -b feature-01
-	
+
+rename current branch
+	command - git branch -m <new name>
+	example - git branch -m dev << current branch name will change to dev
+
+rename branch that your are not currently checked out
+	command - git branch -m <non checked out branch current name> <new name>
+	example - git branch -m test better-test
