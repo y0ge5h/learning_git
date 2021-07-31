@@ -6,4 +6,11 @@ create branch
 	command - git branch <branche name> <commit hash / commit id>
 	example - git branch test 02gh567
 
+switch branch
+	command - git checkout <created branch name>
+	example - git checkout test
+
+create and switch to just created branch
+	command - git checkout -b <branch name>
+	example - git checkout -b feature-01
 	
